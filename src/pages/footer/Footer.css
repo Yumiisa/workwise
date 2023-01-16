@@ -1,0 +1,31 @@
+footer{
+  max-width:90%;
+  margin: auto;
+  height: auto;
+  text-align: center;
+  margin-top: -10px;
+}
+footer ul {
+  display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+footer ul li{
+  margin-left: 10px;
+  position: relative;
+  color: #fff;
+  padding-right: 10px;
+}
+.stroke::after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 15px;
+  top: 5px;
+  right: 0;
+  border-right: 1px solid #e8e8e8;
+}
+.copy{
+  margin-left: 4%;
+}

@@ -1,0 +1,91 @@
+.signInWrapper {
+  width: 26%;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 57%;
+}
+.signInWrapper span{
+  display: block;
+  width: 12%;
+  background-color: #e75349;
+  height: 2px;
+  border-radius: 2px;
+  margin-top: -15px;
+}
+.signInWrapper form input{
+  width: 97%;
+  height: 30px;
+  outline: none;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.signInWrapper form input:last-child{
+  margin-bottom: 20px;
+}
+.rememberActionWrapper{
+  max-width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+.checkwrapper{
+  display: flex;
+}
+.checkwrapper input{
+  cursor: pointer;
+}
+.rememberActionWrapper label{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+}
+.rememberActionWrapper p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+}
+input[type=radio]#remember{
+ accent-color: #e75349;
+}
+ .sign{
+  width: 20%;
+  height: 27px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color:#e75349 ;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 800;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px;
+ }
+ .sign button{
+    background-color:#e75349 ;
+ }
+ input,p{
+  font-family: FontAwesome;
+}
+form{
+    width: 90%;
+}
+.fontAwesome{
+    border-radius: 5px;
+  
+}
+.in{
+    width: 300px;
+   
+    height: 50px; 
+     position: absolute;
+    top: 30%;
+    left:40%;
+}
+.in a{
+    padding: 20px;
+}
+.in a:hover{
+    background-color: #e75349;
+}

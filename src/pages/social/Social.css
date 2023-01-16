@@ -1,0 +1,29 @@
+.socialWrapper1 p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin-left: 35%;
+  margin-top: 5%;
+  font-weight: 800;
+  text-transform: capitalize;
+  }
+ .socialWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+ }
+ .btn,.btn1 {
+  background-color: rgba(59,89,151,255);
+  color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: 900;
+ }
+  .fa-facebook,.fa-twitter{
+  margin: 5%;
+  
+ }
+ .btn1{
+  background-color: rgba(65,153,254,255);
+ }
